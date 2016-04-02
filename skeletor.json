@@ -1,0 +1,28 @@
+{
+    "title": "PHP library",
+    "description": "Skeleton for an MIT licensed PHP library project with composer, PHPUnit and Travis.",
+    "params": {
+        "project.name": "My PHP Project",
+        "project.namespace": "My\\\\Project",
+        "project.description": "Description about my project",
+        "author.name": "Anonymous",
+        "author.email": "anonymous@example.com",
+        "package.name": "my-vendor/my-package"
+    },
+    "basedir": "skeletor",
+    "files": {
+        "lib": {
+            "type": "dir"
+        },
+        "tests": { 
+            "type": "dir"
+        },
+        "LICENSE": {},
+        "README.md": {},
+        ".styleci.yml": {},
+        ".travis.yml": {},
+        ".gitignore": {},
+        "phpunit.xml.dist": {},
+        "composer.json": {}
+    }
+}
