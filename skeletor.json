@@ -17,6 +17,11 @@
         "tests": { 
             "type": "dir"
         },
+        "composer-dynamic": {
+            "type": "file",
+            "path": "composer.json",
+            "dest": "composer-{{ author.name}}.json"
+        },
         "LICENSE": {},
         "README.md": {},
         ".styleci.yml": {},
