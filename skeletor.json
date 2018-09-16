@@ -2,12 +2,16 @@
     "title": "PHP library",
     "description": "Skeleton for an MIT licensed PHP library project with composer, PHPUnit and Travis.",
     "params": {
-        "project.name": "My PHP Project",
-        "project.namespace": "My\\\\Project",
-        "project.description": "Description about my project",
-        "author.name": "Anonymous",
-        "author.email": "anonymous@example.com",
-        "package.name": "my-vendor/my-package"
+        "project": {
+            "name": "My PHP Project",
+            "namespace": "My\\\\Project",
+            "description": "Description about my project"
+        },
+        "author": {
+            "name": "Anonymous",
+            "email": "anonymous@example.com",
+            "name": "my-vendor/my-package"
+        }
     },
     "basedir": "skeletor",
     "files": {
